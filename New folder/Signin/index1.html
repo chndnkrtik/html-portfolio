@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <div class="container" id="one">
+
+
+        <div class="box1">
+            <li class="q dribble"> <a href="https://dribbble.com/">dribble</a></li>
+            <li class="q w"> <b>Discover the world’s top <br>
+                    Designers & Creatives.</b> </li>
+            <li>
+                <div class="box"><img src="./Image/250fa021-25fa-405c-9608-9912ff1982fe_4x.webp" alt="" srcset=""
+                        width="457" height="400"></div>
+            </li>
+            <li class="q">Art by <a href="https://dribbble.com/karicca">Irina Valeeva</a></li>
+        </div>
+
+        <!--  -->
+        <!--  -->
+
+        <div class="con">
+        </div>
+        <div class="box2">
+
+            <nav>Not a member<a href=""><button class="of" onclick="sup()">sign up now </a></nav></button>
+            <div class="box3">
+
+                <!-- 4 -->
+                <div class="box4">
+                    <b class="l">Sign in to Dribble</b> <br> <br> <br>
+
+
+                    <div class="button l">Sign in with Google</div>
+                    <br>
+                    ---------------------------or---------------------------
+                    <br> <br>
+                    <form action="" >
+                        <label for="email" class="l">Username or Email Address</label> <br>
+                        <input type="email" >
+                        <br> <br>
+                        <label for="password" class="l"> Password</label><br>
+                        <input type="password" >
+                        <br><br> <br>
+
+
+                        <button class="l">Sign in</button>
+
+                    </form>
+               
+
+
+
+
+                </div>
+                <!-- 4 -->
+            </div>
+            <!-- box 2 -->
+        </div>
+        <!-- container -->
+    </div>
+
+
+    <!-- container 2  -->
+    <div class="container2" id="two">
+
+
+        <div class="box8">
+            <li class="q dribble"> <a href="https://dribbble.com/">dribble</a></li>
+            <li class="q w"> <b>Discover the world’s top <br>
+                    Designers & Creatives.</b> </li>
+            <li>
+                <div class="box"><img src="./Image/001_4x.webp" alt="" srcset="" width="457" height="400"></div>
+            </li>
+            <li class="q">Art by <a href="https://dribbble.com/tarka">Peter Tarka</a></li>
+        </div>
+
+
+
+        <div class="box2">
+            <nav>Already a member<a href=""><button class="of" onclick="sin()">sign in </a></nav></button>
+            <div class="box3">
+
+                <!-- 4 -->
+                <div class="box4">
+                    <b class="l">Sign in to Dribble</b> <br> <br> <br>
+                    <div class="button l ">Sign in with Google</div>
+                    <br>
+                    ---------------------------or---------------------------
+                    <br> <br>
+                    <form action="" id="myform" name="myform">
+
+                        <label for="fname" class="l">Name</label> <br>
+                        <input type="fname" placeholder="First name" name="fname" id="fname" > <br> <br>
+
+                        <input type="lname" placeholder="Last name" name="lname" id="lname">
+                        <br>
+                        <br>
+
+
+
+
+
+                        <label for="email" class="l">Username or Email Address</label> <br>
+                        <input type="email" name="name" id="name">
+                        <br> <br>
+                        <label for="password" > Password</label><br>
+                        <input type="password" placeholder=" 6+ character" class="l" name="pass" id="pass">
+                        <br><br> <br>
+
+
+                        <button class="l" id="submit" name="submit" type="submit">Create Account</button>
+
+                    </form>
+                         <!-- script -->
+
+                         <script>
+                            const scriptURL = ' https://script.google.com/macros/s/AKfycbzIX90BNpc_DUSHF-chNtwpJvnwFW9_d-lA9bMdJb8ITBEQWob_9K2nwf5RhsqYz4CSUA/exec'
+                            const form = document.forms['myform']
+    
+                            form.addEventListener('submit', e => {
+                                e.preventDefault()
+                                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                    .then(response => location.href = ("thankyou.html"),
+                                        document.querySelector("form").reset()
+                                    )
+                                    .catch(error => console.error('Error!', error.message))
+                            })
+                        </script>
+    
+                        <!--  -->
+                </div>
+                <!-- 4 -->
+            </div>
+            <!-- box 2 -->
+        </div>
+        <!-- container -->
+    </div>
+
+    <!-- container 2 end  -->
+
+
+
+    <script>
+        function sup() {
+            document.getElementById('two').style.display = 'none'
+            document.getElementById('one').style.display = 'flex'
+
+        }
+
+        function sin() {
+            document.getElementById('two').style.display = 'none'
+            document.getElementById('one').style.display = 'flex'
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

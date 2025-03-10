@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 99.5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: left;
+    list-style: none;
+}
+/* .container{
+    display: none;
+} */
+
+
+
+
+/*  */
+#one {
+    display: none;
+}
+#two{
+    display: flex;
+}
+/*  */
+
+.box1 {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(241, 205, 215);
+
+}
+
+li {
+    margin-top: 50px;
+
+}
+
+.q {
+    padding-left: 55px;
+}
+
+.dribble a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(166, 126, 140);
+
+}
+
+.w {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    color: rgb(134, 92, 108);
+
+}
+
+/* =-=-=-------------------------------------------------------------- */
+.box2 {
+    width: 65%;
+    height: 100%;
+}
+nav {
+    float: right;
+    padding: 30px;
+}
+
+.button
+{
+    border: 1px blue;
+}
+.box4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 25%;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+
+button{
+    padding:10px 60px;
+    background-color:rgb(234,76,137) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+ button ,.of {
+    background-color:white;
+}
+
+/* container 2 ******************************************************************************************* */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    height: 99.5vh;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: left;
+    list-style: none;
+}
+
+.box8 {
+    width: 35%;
+    height: 100%;
+    background-color:rgb(242,209,132);
+
+}
+
+li {
+    margin-top: 50px;
+
+}
+
+.q {
+    padding-left: 55px;
+}
+
+.dribble a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(166,130,56);
+
+}
+
+.w {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    color: rgb(134,97,24);
+
+}
+.l{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+/* =-=-=-------------------------------------------------------------- */
+.box2 {
+    width: 65%;
+    height: 100%;
+}
+nav {
+    float: right;
+    padding: 30px;
+}
+
+.button
+{
+    /* border: 1px blue; */
+    background-color: rgb(30,117,232);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    padding-left: 180px;
+}
+.button:hover {
+ background-color: rgb(30,117,232,0.9); ;
+}
+
+.box4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-size: 19px;
+    font-weight: 700;
+}
+button{
+    padding:10px 60px;
+    background-color:rgb(234,76,137) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+ button .of {
+    background-color: white ;
+}
+
+
+form input {
+    padding: 10px 100px;
+}
+
+
+
+

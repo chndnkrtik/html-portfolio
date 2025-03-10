@@ -1,0 +1,22 @@
+body {
+    background-image: url(./image/zetong-li-P3gCxHrE60Q-unsplash.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: azure;
+    
+}
+
+
+
+/* .one {
+    width: 100%;
+    height: 91.3vh;
+    aspect-ratio: 5/2;
+    margin: auto;
+    border: solid black 2px;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    scroll-snap-type: y mandatory;
+} */
